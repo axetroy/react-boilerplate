@@ -13,6 +13,20 @@ React 项目模版
 - [ ] 多布局 Layout
 - [ ] HTTP 封装
 
+### 目录说明
+
+```
+src
+├── api                     # API 目录
+├── assets                  # 静态资源目录 (需要打包的资源)
+├── component               # 全局公共组件 (具备有通用性)
+├── layout                  # 页面布局
+├── page                    # 页面目录
+├── router                  # 路由
+└── store                   # 状态管理
+└── vendor                  # 第三方包 (例如 SDK)
+```
+
 ### 项目规范
 
 #### 1. 不允许有 `any`
