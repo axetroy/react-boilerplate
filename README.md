@@ -1,3 +1,18 @@
+React 项目模版
+
+用于开启一个 React SPA 项目的模板
+
+### 特性
+
+- [x] Typescript
+- [x] 路由
+- [x] 路由动画
+- [x] 路由鉴权
+- [x] 多页 Tab
+- [ ] Keep Alive
+- [ ] 多布局 Layout
+- [ ] HTTP 封装
+
 ### 项目规范
 
 #### 1. 不允许有 `any`
