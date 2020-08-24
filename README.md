@@ -12,6 +12,8 @@ React 项目模版
 - [ ] Keep Alive
 - [ ] 多布局 Layout
 - [ ] HTTP 封装
+- [ ] 格式化
+- [ ] 文件/目录的风格检测
 
 ### 目录说明
 
@@ -21,9 +23,11 @@ src
 ├── assets                  # 静态资源目录 (需要打包的资源)
 ├── component               # 全局公共组件 (具备有通用性)
 ├── layout                  # 页面布局
+├── lib                     # 业务相关的类/库或封装
 ├── page                    # 页面目录
 ├── router                  # 路由
 └── store                   # 状态管理
+└── util                    # 工具函数 (与业务不相关)
 └── vendor                  # 第三方包 (例如 SDK)
 ```
 
@@ -65,3 +69,5 @@ export function Hello (props: Props) {
   }
 }
 ```
+
+#### 9. 除了 `page` 的页面导出，其余所有导出均使用 `export { xxx }` 的形式，不允许有默认导出
