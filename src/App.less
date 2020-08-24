@@ -1,0 +1,40 @@
+@import '~antd/dist/antd.less';
+
+@offset: 100px;
+
+.container {
+  position: relative;
+}
+
+.main-content {
+  position: relative;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translateX(@offset);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s;
+}
+
+.page-enter-done {
+  //position: relative;
+}
+
+.page-exit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateX(-@offset);
+  transition: all 0.5s;
+}
