@@ -53,27 +53,27 @@ src
 
 - 组件必须声明 `prop` 的类型
 
-```tsx
-import React, {PropsWithChildren} from 'react';
-
-interface Props extends PropsWithChildren<any> {
-}
-
-export function Hello (props: Props) {
-
-}
-```
+    ```tsx
+    import React, {PropsWithChildren} from 'react';
+    
+    interface Props extends PropsWithChildren<any> {
+    }
+    
+    export function Hello (props: Props) {
+    
+    }
+    ```
 
 - 所有路由都使用懒加载
 
 - less 文件要使用作用域，不允许使用全局类
 
-```less
-.page-home{
-  p{
-    font-size: 22px;  
-  }
-}
-```
+    ```less
+    .page-home{
+      p{
+        font-size: 22px;  
+      }
+    }
+    ```
 
 - 除了 `page` 的页面导出，其余所有导出均使用 `export { xxx }` 的形式，不允许有默认导出
