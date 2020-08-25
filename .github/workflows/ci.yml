@@ -36,7 +36,7 @@ jobs:
 
       - name: Upload build
         uses: actions/upload-artifact@v2
-        if: runner.os == 'macOS'
+        if: runner.os == 'macOS' && github.event_name == 'push' && startsWith(github.ref, 'refs/master')
         with:
           name: build
           path: ./build
@@ -44,7 +44,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     name: Deploy build
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/master')
     needs: build
     steps:
       - uses: actions/checkout@v2
