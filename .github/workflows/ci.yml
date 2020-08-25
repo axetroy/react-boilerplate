@@ -30,8 +30,8 @@ jobs:
         run: |
           npm run build
 
-      - name: Test
-        run: npm run test
+#      - name: Test
+#        run: npm run test
 
       - name: Upload build
         uses: actions/upload-artifact@v2

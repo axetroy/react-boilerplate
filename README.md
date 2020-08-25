@@ -47,9 +47,9 @@ src
 
 ### 代码规范
 
-- 不允许有 `any`
+- 不允许有 `any`，请使用 `unkown`
 
-    如果是在不行需要声明 `any` 则编译会报错，使用 `// @ts-expect-error` 进行忽略
+    如果是在不行需要声明 `any`，使用 `// @ts-expect-error` 进行忽略而不是 `// @ts-ignore`
 
 - 组件必须声明 `prop` 的类型
 
