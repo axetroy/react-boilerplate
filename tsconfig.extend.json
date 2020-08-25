@@ -26,8 +26,8 @@
       ]
     },
     "experimentalDecorators": true,
-    "types": [
-      "./src/types"
+    "typeRoots": [
+      "./types"
     ]
   },
   "include": [
