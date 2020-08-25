@@ -19,6 +19,7 @@ export default function User() {
     return () => {
       console.log("取消请求");
       cancelGetUserInfo();
+      cancelGetUsers();
     };
   }, []);
 
