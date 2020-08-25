@@ -1,6 +1,6 @@
 import React, {PropsWithChildren} from 'react'
 
-import "./index.less"
+import "./Index.less"
 
 interface Prop extends PropsWithChildren<any> {
 }
