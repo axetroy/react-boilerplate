@@ -3,8 +3,8 @@ import {useHistory} from 'react-router';
 import {Menu, Tag} from 'antd';
 import {MailOutlined, AppstoreOutlined} from '@ant-design/icons';
 
-import {routes} from '../router';
-import {globalContext} from "../store";
+import {routes} from '@/router';
+import {globalContext} from "@/store";
 import style from './Header.module.css';
 
 interface MenuData {
