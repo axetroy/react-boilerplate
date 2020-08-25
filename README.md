@@ -35,9 +35,9 @@ src
 
 ### 目录规范
 
-- `tsx` 一律使用驼峰，其他文件使用 `-` 进行分割
+- 文件一律使用驼峰式
 
-- 所有 `css` 均使用 `less`，并且文件名与组件文件(tsx)一致
+- 所有 `css` 均使用 `less`，并且文件名与组件文件名(tsx)一致，例如 `Home.tsx` 和 `Home.less`/`Home.module.less`
 
 - 所有路由页面都放在 `src/page` 目录下
 
