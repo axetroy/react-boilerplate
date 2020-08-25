@@ -1,5 +1,5 @@
 import React from 'react'
-import "./other.less"
+import "./Other.less"
 
 export default function Other() {
   return <div>

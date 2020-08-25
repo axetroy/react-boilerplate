@@ -11,6 +11,7 @@ React 项目模版
 - [x] 多页 Tab
 - [ ] Keep Alive
 - [ ] 多布局 Layout
+- [ ] 自定义主题
 - [ ] HTTP 封装
 - [ ] 格式化
 - [ ] 文件/目录的风格检测
@@ -27,6 +28,7 @@ src
 ├── page                    # 页面目录
 ├── router                  # 路由
 └── store                   # 状态管理
+└── types                   # 外部的声明文件
 └── util                    # 工具函数 (与业务不相关)
 └── vendor                  # 第三方包 (例如 SDK)
 ```
@@ -35,7 +37,7 @@ src
 
 ### 目录规范
 
-- 文件一律使用驼峰式
+- `tsx` 文件一律使用大写开头-驼峰式，例如 `Home.tsx`, 其余文件使用小写-驼峰式，例如 `http.ts`
 
 - 所有 `css` 均使用 `less`，并且文件名与组件文件名(tsx)一致，例如 `Home.tsx` 和 `Home.less`/`Home.module.less`
 

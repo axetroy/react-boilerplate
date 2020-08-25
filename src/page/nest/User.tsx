@@ -1,5 +1,5 @@
 import React from 'react'
-import "./user.less"
+import "./User.less"
 
 export default function User() {
   return <div>

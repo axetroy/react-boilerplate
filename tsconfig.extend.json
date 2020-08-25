@@ -25,7 +25,10 @@
         "*"
       ]
     },
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "types": [
+      "./src/types"
+    ]
   },
   "include": [
     "src"
