@@ -51,7 +51,7 @@ src
 
 ### 代码规范
 
-- 不允许有 `any`，请使用 `unkown`
+- 不允许有 `any`，请使用 `unknown`
 
   如果是在不行需要声明 `any`，使用 `// @ts-expect-error` 进行忽略而不是 `// @ts-ignore`
 
@@ -79,4 +79,4 @@ src
   }
   ```
 
-- 除了 `page` 的页面导出，其余所有导出均使用 `export { xxx }` 的形式，不允许有默认导出
+- 除了 `page` 的页面导出，其余所有导出均使用 `export { xxx }` 的形式，不允许有默认导出 `export default xxx`
