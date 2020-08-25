@@ -13,9 +13,8 @@ React 项目模版
 - [ ] Keep Alive
 - [ ] 多布局 Layout
 - [ ] 自定义主题
-- [ ] HTTP 封装
+- [x] HTTP 封装
 - [x] 代码格式化
-- [ ] commit 规范
 - [ ] 文件/目录的风格检测
 
 ## 目录说明
