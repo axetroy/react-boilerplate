@@ -24,7 +24,7 @@ jobs:
           npm -v
 
       - name: Install
-        run: npm install
+        run: npm install --verbose
 
       - name: Format
         run: npm run format-check
