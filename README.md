@@ -60,7 +60,7 @@ src
     }
     
     export function Hello (props: Props) {
-    
+      return <div>Hello world</div>
     }
     ```
 
