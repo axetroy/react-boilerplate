@@ -25,14 +25,14 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.3",
     "react-transition-group": "4.4.1",
-    "typescript": "4.0.2"
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "format": "prettier --write \"**/*.*(js|jsx|ts|tsx|md|vue|css|less|sass|scss|yml|yaml|json)\"",
-    "format-check": "prettier --check \"**/*.*(js|jsx|ts|tsx|md|vue|css|less|sass|scss|yml|yaml|json)\""
+    "format": "prettier --write \"**/*.*(js|jsx|ts|tsx|md|css|less|sass|scss|yml|yaml|json)\"",
+    "format-check": "prettier --check \"**/*.*(js|jsx|ts|tsx|md|css|less|sass|scss|yml|yaml|json)\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,7 +51,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged --pattern \"**/*.*(js|jsx|ts|tsx|md|vue|css|less|sass|scss)\""
+      "pre-commit": "pretty-quick --staged --pattern \"**/*.*(js|jsx|ts|tsx|md|css|less|sass|scss|yml|yaml|json)\""
     }
   }
 }

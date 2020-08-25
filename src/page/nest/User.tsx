@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import { api } from "@/api";
 import "./User.less";
 
 export default function User() {
+  useEffect(() => {
+    const [getUserInfo, cancelGetUserInfo] = api.get("/user/profile");
+    const [getUsers, cancelGetUsers] = api.list<number>("/users");
+
+    getUserInfo().then((res) => {
+      console.log(res);
+    });
+
+    getUsers().then((res) => {
+      console.log(res.data);
+    });
+
+    return () => {
+      console.log("取消请求");
+      cancelGetUserInfo();
+    };
+  }, []);
+
   return (
     <div>
       <h3>User Page</h3>

@@ -1,5 +1,5 @@
 import { HTTPClient } from "@/lib/http";
 
-const api = new HTTPClient("https://api.example.com/v1");
+const api = new HTTPClient(process.env.REACT_APP_API || "");
 
 export { api };
