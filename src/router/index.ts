@@ -7,7 +7,7 @@ const routes = [
   {title: '测试页2', path: '/test2', name: 'Test2', Component: React.lazy(() => import("../page/Test2"))},
   {title: '测试页3', path: '/test3', name: 'Test3', Component: React.lazy(() => import("../page/Test3"))},
   {title: '测试页4', path: '/test4', name: 'Test4', Component: React.lazy(() => import("../page/Test4"))},
-  {title: '首页', path: '/', exact: true, name: 'Home', Component: React.lazy(() => import("../page/index"))},
+  {title: '首页', path: '/', exact: true, name: 'Home', Component: React.lazy(() => import("../page/Index"))},
 ]
 
 export {routes}

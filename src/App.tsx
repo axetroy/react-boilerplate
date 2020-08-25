@@ -8,7 +8,7 @@ import {Spin} from 'antd'
 
 import {Provider} from './store';
 import {routes} from './router';
-import {MainLayout} from './layout/main';
+import {MainLayout} from './layout/Main';
 import './App.less';
 
 function App() {

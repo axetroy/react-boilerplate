@@ -5,7 +5,7 @@ import {MailOutlined, AppstoreOutlined} from '@ant-design/icons';
 
 import {routes} from '../router';
 import {globalContext} from "../store";
-import style from './header.module.css';
+import style from './Header.module.css';
 
 interface MenuData {
   title: string;

@@ -1,8 +1,8 @@
 import React, {PropsWithChildren} from 'react';
 
-import Header from "../component/header"
-import Footer from "../component/footer"
-import ReuseTab from "../component/reuseTab"
+import Header from "../component/Header"
+import Footer from "../component/Footer"
+import ReuseTab from "../component/ReuseTab"
 
 interface Props extends PropsWithChildren<any> {
 }
