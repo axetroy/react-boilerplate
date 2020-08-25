@@ -1,5 +1,3 @@
-import { resolve } from "dns";
-
 /**
  * sleep in async
  * @param ms
