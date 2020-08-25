@@ -105,7 +105,7 @@ export default function Header() {
 
       setNav(newNav)
     }
-  }, [history.location])
+  }, [history.location, nav, setNav])
 
   return <>
     <Menu className={style.header} onClick={(e) => goto(e.key + "")} selectedKeys={[current]} mode="horizontal">
