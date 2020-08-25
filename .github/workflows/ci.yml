@@ -27,8 +27,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: |
-          npm run build
+        run: npm run build
 
       #      - name: Test
       #        run: npm run test
@@ -43,15 +42,19 @@ jobs:
   release:
     runs-on: ubuntu-latest
     name: Deploy build
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+    if: github.event_name == 'push'
     needs: build
     steps:
       - uses: actions/checkout@v2
+
+      - run: ls -lh
 
       - name: Download build
         uses: actions/download-artifact@v2
         with:
           name: build
+
+      - run: ls -lh
 
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.9
