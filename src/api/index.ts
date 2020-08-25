@@ -1,5 +1,5 @@
 import { HTTPClient } from "@/lib/http";
 
-const userApi = new HTTPClient();
+const api = new HTTPClient("https://api.example.com/v1");
 
-export { userApi };
+export { api };
