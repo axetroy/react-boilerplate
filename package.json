@@ -16,6 +16,9 @@
     "antd": "4.6.1",
     "craco-alias": "2.1.1",
     "craco-less": "1.17.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.1.0",
+    "pretty-quick": "^3.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "5.2.0",
@@ -26,7 +29,9 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "format": "prettier --write \"**/*.*(js|jsx|ts|tsx|md|vue|css|less|sass|scss|yml|yaml|json)\"",
+    "format-check": "prettier --check \"**/*.*(js|jsx|ts|tsx|md|vue|css|less|sass|scss|yml|yaml|json)\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,5 +47,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged --pattern \"**/*.*(js|jsx|ts|tsx|md|vue|css|less|sass|scss)\""
+    }
   }
 }

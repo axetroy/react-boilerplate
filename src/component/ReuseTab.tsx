@@ -1,4 +1,4 @@
-import React, {PropsWithChildren} from 'react'
+import React, { PropsWithChildren } from "react";
 
 interface ITab {
   key: string;
@@ -7,15 +7,15 @@ interface ITab {
 }
 
 interface IReuseTab extends PropsWithChildren<any> {
-  tabs: ITab[]
+  tabs: ITab[];
 }
 
-export default function ReuseTab({tabs}: IReuseTab) {
-  return <div>
-    {tabs.map(tab => {
-      return <span key={tab.key}>
-        {tab.name}
-      </span>
-    })}
-  </div>
+export default function ReuseTab({ tabs }: IReuseTab) {
+  return (
+    <div>
+      {tabs.map((tab) => {
+        return <span key={tab.key}>{tab.name}</span>;
+      })}
+    </div>
+  );
 }

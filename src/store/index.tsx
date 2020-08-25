@@ -1,8 +1,8 @@
-import React, {PropsWithChildren, useState} from "react";
+import React, { PropsWithChildren, useState } from "react";
 
 interface UserInfo {
   id: string;
-  username: string
+  username: string;
 }
 
 interface Nav {
@@ -15,39 +15,37 @@ interface IGlobalState {
   menu: string[];
   nav: Nav[];
 
-  setUserInfo(userInfo: any): void
+  setUserInfo(userInfo: any): void;
 
-  setMenu(menu: string[]): void
+  setMenu(menu: string[]): void;
 
-  setNav(nav: Nav[]): void
+  setNav(nav: Nav[]): void;
 }
 
 const initState: IGlobalState = {
   userInfo: null,
   menu: [],
   nav: [],
-  setUserInfo(userInfo: UserInfo) {
-  },
-  setMenu(menu: string[]) {
-  },
-  setNav(nav: Nav[]) {
-  }
-}
+  setUserInfo(userInfo: UserInfo) {},
+  setMenu(menu: string[]) {},
+  setNav(nav: Nav[]) {},
+};
 
-export const globalContext = React.createContext(initState)
+export const globalContext = React.createContext(initState);
 
 export function Provider(props: PropsWithChildren<any>) {
-  const [menu, setMenu] = useState([] as string[])
-  const [nav, setNav] = useState([] as Nav[])
-  const [userInfo, setUserInfo] = useState<UserInfo | null>(null)
+  const [menu, setMenu] = useState([] as string[]);
+  const [nav, setNav] = useState([] as Nav[]);
+  const [userInfo, setUserInfo] = useState<UserInfo | null>(null);
 
   const state: IGlobalState = {
-    menu, setMenu,
-    nav, setNav,
-    userInfo, setUserInfo
-  }
+    menu,
+    setMenu,
+    nav,
+    setNav,
+    userInfo,
+    setUserInfo,
+  };
 
-  return <globalContext.Provider value={state}>
-    {props.children}
-  </globalContext.Provider>
+  return <globalContext.Provider value={state}>{props.children}</globalContext.Provider>;
 }
