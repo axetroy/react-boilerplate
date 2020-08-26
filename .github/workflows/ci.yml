@@ -39,7 +39,7 @@ jobs:
 
       - name: Upload build
         uses: actions/upload-artifact@v2
-        if: runner.os == 'macOS' && github.event_name == 'push' && startsWith(github.ref, 'refs/master')
+        if: runner.os == 'macOS' && github.event_name == 'push' && startsWith(github.ref, 'refs/heads/master')
         with:
           name: build
           path: ./build
