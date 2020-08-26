@@ -47,7 +47,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     name: Deploy build
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/master')
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/master')
     needs: build
     steps:
       - uses: actions/checkout@v2
