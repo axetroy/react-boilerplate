@@ -1,3 +1,5 @@
+![ci](https://github.com/axetroy/react-boilerplate/workflows/ci/badge.svg)
+
 React 项目模版
 
 用于开始一个 React SPA 项目的模板
