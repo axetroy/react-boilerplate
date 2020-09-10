@@ -19,7 +19,7 @@
     "craco-less": "1.17.0",
     "husky": "4.3.0",
     "prettier": "2.1.1",
-    "pretty-quick": "3.0.0",
+    "pretty-quick": "3.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "5.2.0",
