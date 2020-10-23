@@ -1,0 +1,1 @@
+{"version":3,"sources":["page/Test1.tsx"],"names":["Test1"],"mappings":"wHAAA,mEAEe,SAASA,IACtB,OAAO","file":"static/js/7.880483e6.chunk.js","sourcesContent":["import React from \"react\";\n\nexport default function Test1() {\n  return <div>test 1</div>;\n}\n"],"sourceRoot":""}
