@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8966aa630b3a6628ad81b7828f54e125",
+    "revision": "edbee62364fbea4333da56c083256250",
     "url": "/react-boilerplate/index.html"
   },
   {
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-boilerplate/static/css/6.dac7fd22.chunk.css"
   },
   {
-    "revision": "ef00750d3770241269d8",
-    "url": "/react-boilerplate/static/css/main.bfe27c8a.chunk.css"
+    "revision": "3b7189baf7925cb8edbc",
+    "url": "/react-boilerplate/static/css/main.4510cfa9.chunk.css"
   },
   {
     "revision": "79d3082583a9ec762c35",
     "url": "/react-boilerplate/static/js/10.861f926f.chunk.js"
   },
   {
-    "revision": "c03fb5bba95103521841",
-    "url": "/react-boilerplate/static/js/2.2da4811b.chunk.js"
+    "revision": "5e95fd836cfa852344aa",
+    "url": "/react-boilerplate/static/js/2.7ec2816e.chunk.js"
   },
   {
     "revision": "44ba416b9a7217ca99c025d9f4dd1124",
-    "url": "/react-boilerplate/static/js/2.2da4811b.chunk.js.LICENSE.txt"
+    "url": "/react-boilerplate/static/js/2.7ec2816e.chunk.js.LICENSE.txt"
   },
   {
     "revision": "a5954ed7fccb6b907fb7",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-boilerplate/static/js/9.7350d532.chunk.js"
   },
   {
-    "revision": "ef00750d3770241269d8",
+    "revision": "3b7189baf7925cb8edbc",
     "url": "/react-boilerplate/static/js/main.5afc3fdd.chunk.js"
   },
   {
