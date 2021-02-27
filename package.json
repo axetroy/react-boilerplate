@@ -12,7 +12,7 @@
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.1",
     "@types/react-router-dom": "5.1.7",
-    "@types/react-transition-group": "4.4.0",
+    "@types/react-transition-group": "4.4.1",
     "antd": "4.12.3",
     "axios": "0.21.1",
     "craco-alias": "2.1.1",
