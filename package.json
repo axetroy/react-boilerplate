@@ -13,7 +13,7 @@
     "@types/react-dom": "17.0.5",
     "@types/react-router-dom": "5.1.7",
     "@types/react-transition-group": "4.4.1",
-    "antd": "4.15.5",
+    "antd": "4.16.1",
     "axios": "0.21.1",
     "craco-alias": "3.0.0",
     "craco-less": "1.17.1",
